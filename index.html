@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Milestone Project</title>
+
+  <style>
+    body {
+      margin: 0px 80px 100px 80px;
+    }
+    header {
+      height: 100px;
+      align-content: center;
+    }
+
+    video {
+      width: 100%;
+      height: 400px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    div {
+      margin-bottom: 20px;
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Let's build a landing page for BuildNest Studios -->
+  <header>
+    <nav>
+      <img style="width: 150px;" src="https://www.buildneststudio.com/wp-content/uploads/2025/12/Buildnest-Logo.png" alt="BuildNest Logo">
+    </nav>
+  </header>
+  <hr>
+
+  <main> 
+    <!-- Hero section -->
+    <section class="Hero-Section">
+      <h1>Build clarity before <br>you build products.</h1>
+      <p>BuildNest creates practical digital templates that <br>
+        help founders turn ideas into clear, actionable projects <br>
+        — without overwhelm.
+      </p>
+
+      <div style="display: flex; gap:20px">
+         <button type="submit">Browse Templates</button> 
+         <a href="#form">Contact Us</a>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Problem section -->
+    <section class="Problem-Section">
+      <h2>Most ideas don't fail <br>— they stay unclear.</h2>
+      <p>Founders often start with excitement, scattered notes, <br>and big visions
+         — but no clear structure. <br>BuildNest helps you slow down, think clearly, 
+         and <br>lay a solid foundation before execution.
+      </p>
+
+      <video controls autoplay muted loop> 
+        <source src="https://cdn.pixabay.com/video/2023/05/05/161739-824152752_large.mp4" type="video/mp4">
+        <p>Watch how our template helped a health tech startup 
+          structure their idea into a clear, actionable plan.</p>
+      </video>
+    </section>
+
+    <hr>
+
+    <!-- Solution section -->
+    <section class="Solution-Section">
+      <h2>A better way to think through your ideas.</h2>
+      <p>Our templates guide you through a structured process, 
+        helping you <br> clarify your vision and build a solid 
+        foundation for your project.
+      </p>
+
+      <img src="https://img.freepik.com/free-vector/hand-drawn-iranian-women-illustration_23-2149825013.jpg?t=st=1766841693~exp=1766845293~hmac=489de8936772e980a98b23dab9fa335804d7ec28dbd34a85d072ab9e29326103&w=500" alt="a cartoon illustration holding a pc">
+    </section>
+
+    <hr>
+
+    <!-- Data section -->
+    <section>
+      <h2>What you'll get</h2>
+    
+      <table>
+         <caption> Data about the planets of our solar system 
+          (Planetary facts taken from Nasa)
+         </caption>
+
+         <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th scope="col">Name</th>
+            <th scope="col">Mass (10 24kg)</th>
+            <th scope="col">Diameter (km)</th>
+            <th scope="col">Density (kg/m3)</th>
+            <th scope="col">Gravity (m/s2)</th>
+          </tr>
+         </thead>
+
+          <tbody>
+            <tr>
+              <th scope="rowgroup" rowspan="4" colspan="2">Terrestrial Planets</th>
+              <th scope="row">Mercury</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Venus</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Earth</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Mars</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="rowgroup" rowspan="4">Jovian Planets</th>
+              <th scope="rowgroup" rowspan="2">Gas Giants</th>
+              <th scope="row">Jupiter</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Saturn</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="rowgroup" rowspan="2">Ice Giants</th>
+              <th scope="row">Uranus</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Neptune</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+
+            <tr>
+              <th scope="rowgroup" colspan="2">Dwarf Planets</th>
+              <th scope="row">Pluto</th>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+          </tbody>
+
+          <tfoot></tfoot>
+      </table>
+    </section>
+      
+      <hr>
+    <section class="form-section">
+      <h2>Get clarity tools before everyone else</h2>
+      <p>
+        Join the BuildNest list to get early access 
+        to new templates, <br> founder resources, and 
+        practical tools for turning ideas into real 
+        projects.
+      </p>
+
+      <form action="" method="get" id="form">
+        <section>
+          <div>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" 
+            placeholder="Enter your full name" minlength="10" maxlength="20" required>
+          </div>
+
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" 
+             placeholder="Enter your email address" required>
+          </div>
+
+          <div>
+            <label for="city">City</label>
+            <select name="city" id="city" required>
+              <option value="">Select a city</option>
+              <option value="Lekki">Lekki</option>
+              <option value="Ikoyi">Ikoyi</option>
+              <option value="Victoria Island">Victoria Island</option>
+              <option value="Banana Island">Banana Island</option>
+              <option value="VGC">VGC</option>
+              <option value="Chevron">Chevron</option>
+              <option value="Ikate">Ikate</option>
+              <option value="Freedom way">Freedom way</option>
+              <option value="Osapa London">Osapa London</option>
+              <option value="Peanock Garden">Peanock Garden</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="state">State</label>
+            <select name="state" id="state">
+              <option value="">Select a state</option>
+              <option value="Lagos">Lagos</option>
+              <option value="Ogun">Ogun</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="phone number">Phone Number</label>
+            <input type="tel" name="phone number" id="phone number" 
+             placeholder="Please enter a valid phone number" maxlength="11" required>
+          </div>
+
+          <div>
+            <label for="message">Message</label> <br>
+            <textarea name="message" id="message" placeholder="Leave a message here..."></textarea>
+          </div>
+
+          <div>
+            <label for="Contact">How should we contact you?</label> <br>
+            <input type="radio" name="Contact" id="Contact" value="phone" > Phone
+            <input type="radio" name="Contact" id="Contact" value="email"> Email
+            <input type="radio" name="Contact" id="Contact" value="both"> Both
+          </div>
+
+           <div>
+            <label for="Question">How did you hear about us?</label> <br>
+            <input type="checkbox" name="Question" id="Question" value="phone" > Friend
+            <input type="checkbox" name="Question" id="Question" value="email"> TS Academy
+            <input type="checkbox" name="Question" id="Question" value="both"> Others
+          </div>
+
+          <button type="submit">Submit <img style="width: 14px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0OCIgZD0ibTE4NCAxMTJsMTQ0IDE0NGwtMTQ0IDE0NCIvPjwvc3ZnPg==" alt=""></button>
+        </section>
+        
+      </form>
+    </section>
+  </main>
+
+  <hr>
+  <footer>
+    <h3>About</h3>
+    <ul>
+      <li><a href="">How it works</a></li>
+      <li><a href="">Featured</a></li>
+      <li><a href="">Partnerhip</a></li>
+      <li><a href="">Business Relations</a></li>
+    </ul>
+    <hr>
+    <p> &copy; 2026 BuildNest. All rights reserved. <span style="margin-right: 20px; margin-left: 20px;"><a href="">Privacy & Policy</a></span> <span><a href="">Terms & Conditions</a></span></p> 
+  </footer>
+</body>
+
+
+</html>
